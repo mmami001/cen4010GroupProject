@@ -15,6 +15,7 @@
     "postcss-load-config": "^2.1.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-icons": "^3.11.0",
     "react-scripts": "3.4.3",
     "react-spring": "^8.0.27",
     "tailwindcss": "^1.8.10"

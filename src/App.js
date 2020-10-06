@@ -2,16 +2,17 @@ import React from 'react';
 import HelloWorld from './Components/HelloWorld'
 import Header from './Components/Header'
 import Footer from './Components/Footer'
-import CounterExample from './Components/CounterExample'
+// import CounterExample from './Components/CounterExample'
+import Stars from './Components/Stars';
+import './App.css'
 
 function App() {
   return (
     <div>
       <Header />
-     <HelloWorld name = "Diego Landaeta" />
-     <CounterExample>
+     <HelloWorld name = "please rate this book" />
 
-     </CounterExample>
+     <Stars></Stars>
      <Footer />
     </div>
   );
