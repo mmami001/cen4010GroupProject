@@ -1,0 +1,117 @@
+nav{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 2;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 50px 60px 0 60px;
+}
+
+.cart a {
+    background-color: royalblue;
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.container{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 150px;
+    padding-bottom:100px;
+}
+
+.add-cart{
+    width: 100%;
+    background-color: darkgrey;
+    transition: all 0.3s ease-in-out;
+    opacity: 0;
+    cursor: pointer;
+    text-align: center;
+}
+
+.image:hover .cart1,
+.image:hover .cart2,
+.image:hover .cart3{
+    bottom: 50px;
+    opacity: 1;
+    padding:10px;
+    text-decoration: none;
+}
+
+
+/*--------------------CART PAGE--------------*/
+
+/*.products-containers{*/
+/*    max-width: 650px;*/
+/*    justify-content: space-around;*/
+/*    margin: 0 auto;*/
+/*    margin-top: 50px;*/
+/*}*/
+
+.products-containers ion-icon {
+    font-size: 25px;
+    color: blue;
+    /*margin-left: 10px;*/
+    /*margin-right: 10px;*/
+    cursor: pointer;
+}
+
+
+
+.product-header{
+    width: 100%;
+    max-width: 650px;
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 4px solid lightgray;
+    margin: 0 auto;
+}
+
+.product-title{
+    width:45%;
+
+}
+.price{
+    width: 15%;
+
+    display: flex;
+    align-items: center;
+}
+
+.quantity{
+    width: 30%;
+    border-bottom: 1px solid lightgray;
+}
+
+.total{
+    width: 10%;
+    border-bottom: 1px solid lightgray;
+    display: flex;
+    align-items: center;
+}
+
+.product{
+    width: 45%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid lightgray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
