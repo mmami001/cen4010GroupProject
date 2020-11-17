@@ -1,6 +1,8 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 import data from '../data';
+import Toggle from './Components/Toggle'
+import ProductReview from './Components/ProductReview';
 
 
 function ProductScreen(props) {
@@ -15,6 +17,7 @@ function ProductScreen(props) {
            <div className = "details-image">
                <img src = {product.image} alt = "product" ></img>
            </div>
+           
            <div className = "details-info">
                <ul>
                    <li>
@@ -74,10 +77,16 @@ function ProductScreen(props) {
                    </li>
                </ul>
            </div>
-
         </div>
-       
+        <div className = "product-review">
+               <ul>
+                       <Toggle>
+                           <ProductReview />
+                       </Toggle>
+               </ul>
+           </div>
     </div>
+    
 }
 
 export default ProductScreen;
