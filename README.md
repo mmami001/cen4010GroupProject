@@ -9,4 +9,4 @@ Features:
   Shopping Cart - Elliot  
   Book Rating - Diego  
   Book Browsing & Sorting - Kevin  
-  Profile Management - Manassa  
+  Profile Management - Manasa  
